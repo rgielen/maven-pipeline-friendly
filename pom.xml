@@ -12,21 +12,25 @@
     <artifactId>maven-pipeline-friendly</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+    <properties>
+        <repo.location>http://localhost:8081</repo.location>
+    </properties>
+
     <distributionManagement>
         <snapshotRepository>
             <id>my-nexus</id>
-            <url>http://localhost:8081/repository/maven-snapshots/</url>
+            <url>${repo.location}/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>my-nexus</id>
-            <url>http://localhost:8081/repository/maven-releases/</url>
+            <url>${repo.location}/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
     <repositories>
         <repository>
             <id>my-nexus</id>
-            <url>http://localhost:8081/repository/maven-public/</url>
+            <url>${repo.location}/repository/maven-public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
