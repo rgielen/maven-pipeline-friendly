@@ -5,8 +5,8 @@
     <servers>
         <server>
             <id>my-nexus</id>
-            <username>admin</username>
-            <password>admin123</password>
+            <username>${repo.username}</username>
+            <password>${repo.password}</password>
         </server>
     </servers>
 
