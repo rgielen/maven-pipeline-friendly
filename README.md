@@ -2,4 +2,4 @@
 
 Example project for CI/CD pipeline friendly Maven.
 
-See full article at https://rgielen.net/posts/2019/ci-cd-pipeline-friendly-maven-projects/
+See full blog article series at https://rgielen.net/series/pipeline-friendly-maven/
