@@ -40,4 +40,13 @@
         </repository>
     </repositories>
 
+    <profiles>
+        <profile>
+            <id>ci</id>
+            <properties>
+                <repo.location>http://nexus:8081</repo.location>
+            </properties>
+        </profile>
+    </profiles>
+
 </project>
